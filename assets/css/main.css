@@ -1,0 +1,240 @@
+/*index style*/
+nav{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    font-family: Dyuthi;
+}
+nav ul li a:hover{
+    color:black;
+    background-color: antiquewhite;
+
+}
+
+        h3{
+            text-align: center;
+            text-decoration: underline;
+            color: maroon;
+            font-family: Dyuthi;
+            font-weight: bolder;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color: maroon;
+            font-family: Dyuthi;
+            font-weight: bold;
+
+        }
+        p{
+            color: black;
+            font-size: 25px;
+            font-family: Dyuthi;
+            font-style: normal;
+            font-weight: lighter;
+            margin: 10px;
+
+
+
+        }
+        a{
+            color: brown ;
+            font-size:25px;
+            font-family: Dyuthi;
+            font-weight: bold;
+            font-style: italic;
+            text-align: right;
+        }
+    /*about us styling    */
+        table{
+            width: 70%;
+            border-collapse: collapse;
+            justify-content: center;
+            align-content: center;
+            margin-left: 100px;
+        }
+        table,th,td{
+            border: 2px solid black;
+            text-align: center;
+            background-color: brown;
+            color: beige;
+            font-size: 20px;
+            align-content: center;
+        }
+        #tables{
+            color: antiquewhite;
+        }
+     /* image section*/
+        .hero-image{
+            background-image: url("https://cdn.pixabay.com/photo/2025/05/22/15/49/wood-9616079_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            /*height: 1000px;*/
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .hero-text{
+            text-align:center;
+            position: relative;
+            top: 50%;
+            font-weight: bolder;
+            font-size: 36px;
+            text-decoration: underline;
+
+        }
+
+
+
+
+
+
+     /*contact us styling   */
+        .contact-container{
+            display: flex;
+            gap:10px;
+            flex-wrap:wrap;
+            align-items: flex-start;
+        }
+        .map{
+            flex: 1;
+            min-width: 200px
+
+        }
+        .videos{
+            /*flex: 1.5;*/
+            min-width: 200px;
+            display: flex;
+            gap:15px;
+            /*flex-direction: column;*/
+
+
+        }
+        iframe{
+            max-width: 100%;
+            border-radius: 20px;
+            overflow: visible;
+            box-shadow: 10px 10px 30px palevioletred;
+        }
+
+
+
+    /*signup style*/
+        form{
+            max-width: 600px;
+            margin: auto;
+            background:grey;
+            padding:20px 20px;
+            border-radius:10px;
+
+        }
+        fieldset{
+            border: none;
+            padding: 0;
+
+        }
+        h2{
+            font-size: 35px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        label{
+
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-family: Dyuthi;
+        }
+        input[type="text"],select{
+            padding: 10px 5px;
+            border:1px solid ;
+            border-radius: 6px;
+            font-size:1em;
+            width: 100%;
+        }
+        .form-inline{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap:15px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"]{
+            width:100%;
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: black;
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+        select:hover{
+            background-color: black;
+            color: white;
+
+
+        }
+    /*gallery styles*/
+        #images{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        #images img{
+            width: 200px;
+            height: 250px;
+            border-radius: 12px;
+            box-shadow: 10px 10px 50px maroon;
+            cursor: pointer;
+
+        }
+        #images img:hover{
+            transform: scale(1.05);
+            box-shadow: 12px 12px 40px maroon;
+        }
+        #school img{
+            justify-content: center;
+            padding: 20px 30px;
+            width:900px;
+            height: 390px;
+
+
+        }
+        #school{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
